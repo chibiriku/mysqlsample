@@ -1,12 +1,13 @@
 package com.example.entity;
 
+import java.io.Serializable;
 import java.sql.Date;
 
 import lombok.Data;
 
 
 @Data
-public class User {
+public class User implements Serializable {
 	
 	//ID
 	private Long id;
