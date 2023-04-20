@@ -8,5 +8,7 @@ import lombok.Data;
 public class UserSearchRequest implements Serializable {
 	
 	private Long id;
+	
+	private String name;
 
 }
